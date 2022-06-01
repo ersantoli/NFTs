@@ -1,0 +1,303 @@
+:root {
+    --body-background: #0e0e0e;
+    --color-logo: #ff5b50;
+    --card-color: #252525;
+    --text-color: #fff;
+    --subtitle-color: #5a5757;
+    --black-text: #000;
+    --color-input: #0D0D0D;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000;
+}
+
+#nav-bar{
+    background-image: url("img/background.png");
+    width: 100%;
+    height: 150vh;
+    margin: 0 auto;
+    }
+#top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+    width: 90vw;
+    height: 15vh;  
+
+}
+#links{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    list-style: none;
+    justify-content: space-between;   
+   
+}
+#links li{
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
+#btn{
+    
+   
+    text-align: center;
+   
+}
+#btn button{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    
+}
+#logo{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    font-size: 1.2rem;
+}
+
+#nft{
+    color:var(--color-logo) ;
+
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95vw;
+    margin: 0 auto;
+    height: 60vh;
+}
+.text1 p{
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+    
+
+}
+.aside1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+}
+.aside1{
+    color: #fff;
+    padding: 20px;
+}
+.text_meio{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;       
+    text-align: center;
+}
+.text_meio h2{
+    font-size: 3.6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    
+
+}
+.aside1-{
+    display: flex;
+    flex-direction: row;
+}
+bordas{
+   border: 2px solid aqua;
+    padding: 10px;
+}
+i{
+    color: #ff5b50;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:0 auto;
+    width: 95vw;   
+   
+    
+}
+.gallery img{
+    border: 2px solid aqua;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 290px;
+    
+}
+.gal1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+   
+}
+.gal2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.banner{   
+    
+    margin-top: 20px;
+}
+.main2{
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
+    color: #fff;
+    margin: 0 auto;
+    padding: 50px;
+}
+.numeros{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;       
+    border-right:  2px solid aqua;
+    border-bottom:2px solid aqua; ;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 70vw;
+}
+.numeros span{
+    color: #5a5757;
+    text-align: center;
+   
+    font-size: 1rem;
+}
+.textos{
+    display: flex;
+    flex-direction: row;
+}
+.texto1{
+    display: flex;
+    flex-direction: column;
+width: 30vw;
+padding: 30px;
+margin: 0 auto;
+justify-content: space-evenly;
+
+}
+.texto2{
+    display: flex;
+    flex-direction: column;
+width: 30vw;
+padding: 30px;
+margin: 0 auto;
+justify-content: space-evenly;
+
+}
+#big{
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    color: #fff;
+}
+.main3{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90vw;
+    margin: 0 auto;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+}
+.col1{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.art1 span{
+    font-size: 1.5rem;
+    color: aqua;
+}
+.p2{
+    font-size: 1.5rem;
+    color: aqua;
+}
+.fl-rig{
+    float: right;
+}
+.artista{
+    width: 300px;
+    height: 150px;
+    background-color: #252525;
+    display: flex;
+    flex-direction: row;
+
+}
+.artista img{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    margin:20px;
+}
+.descricao{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   text-align: center;
+}
+.descricao span{
+    color: aqua;
+}
+.ma{
+    font-size: 2.4rem;
+    margin: 80px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+@media (max-width: 420px){
+    .gallery{
+        width: 100vw;      
+        margin: 0;
+        display: flex;flex-direction: row;
+        justify-content: space-around;
+    }
+    .gal1 img{
+        max-width: 150px;  
+        margin: 0;
+        padding: 0;
+            
+         }
+         .gal2 img{
+            width: 150px;      
+             }
+             #btn{
+                   margin-top: 2px;
+             }
+             #links{
+                 width: 90%;
+                 margin: 0 auto;
+             }
+}
